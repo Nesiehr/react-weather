@@ -11,8 +11,8 @@ var React = require('react');
 var About = (props) => {
 	return(
 		<section>
-			<h3>About</h3>
-			<p>Welcome to the about page</p>
+			<h1 className='text-center'>About</h1>
+			<p>Welcome to React Weather. This web application uses React and OpenWeatherMap to display the temperature in different cities.</p>
 		</section>
 	)
 };
